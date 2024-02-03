@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection Assignment
+# Credit Card Fraud Detection
 
 ## Overview
 
