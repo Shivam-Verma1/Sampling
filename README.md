@@ -1,5 +1,16 @@
 # Credit Card Fraud Detection
 
+```mermaid
+graph TD
+    A[Start] -->|Load Data| B(Data Preprocessing)
+    B -->|Handle Missing Values| C(Explore & Visualize Class Distribution)
+    C -->|Apply Sampling Techniques| D(Model Training)
+    D -->|Train Models| E(Model Evaluation)
+    E -->|Evaluate Accuracy| F(Compare Results)
+    F -->|Compare Performance| G(Results and Conclusion)
+    G -->|Summarize Findings| H[End]
+```
+
 ## Overview
 
 This assignment focuses on exploring and implementing different sampling techniques for credit card fraud detection using a provided CSV dataset. The goal is to train five distinct models using various sampling methods and evaluate their accuracy in detecting fraudulent transactions. The models to be used are CatBoost, XGBoost, LightGBM, Support Vector Classifier (SVC), and Random Forest.
